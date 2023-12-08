@@ -7,90 +7,89 @@
     <style>
         /* Inline CSS styles go here */
         /* Place your CSS styles inside the <style> tags */
-/* Reset some default styles */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}
+        /* Reset some default styles */
+        body, h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
 
-/* Define basic styles for the header */
-header {
-    background-image: url('header-background.jpg');
-    background-size: cover;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        /* Define basic styles for the header */
+        header {
+            background-image: url('header-background.jpg');
+            background-size: cover;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-.logo img {
-    max-width: 100px;
-}
+        .logo img {
+            max-width: 100px;
+        }
 
-nav ul {
-    list-style: none;
-}
+        nav ul {
+            list-style: none;
+        }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
 
-/* Define styles for the hero section */
-.hero {
-    text-align: center;
-    padding: 100px 0;
-}
+        /* Define styles for the hero section */
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
 
-.btn {
-    background-color: #ff3366;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    text-decoration: none;
-    font-weight: bold;
-}
+        .btn {
+            background-color: #ff3366;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-/* Define styles for the video section */
-.video {
-    text-align: center;
-    padding: 50px 0;
-}
+        /* Define styles for the video section */
+        .video {
+            text-align: center;
+            padding: 50px 0;
+        }
 
-/* Define styles for other sections (products, about us, etc.) */
+        /* Define styles for other sections (products, about us, etc.) */
 
-/* Define styles for the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        /* Define styles for the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-.contact, .subscribe {
-    flex: 1;
-    margin-right: 20px;
-}
+        .contact, .subscribe {
+            flex: 1;
+            margin-right: 20px;
+        }
 
-.subscribe input {
-    padding: 10px;
-    width: 100%;
-    border: none;
-    margin-bottom: 10px;
-}
+        .subscribe input {
+            padding: 10px;
+            width: 100%;
+            border: none;
+            margin-bottom: 10px;
+        }
 
-.subscribe button {
-    background-color: #ff3366;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    text-decoration: none;
-    font-weight: bold;
-}
-
+        .subscribe button {
+            background-color: #ff3366;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -111,7 +110,7 @@ footer {
     <section class="hero">
         <h1>Welcome to our Beauty Products Store</h1>
         <p>Discover the latest beauty products that will make you look stunning.</p>
-        <a href="#" class="btn">Shop Now</a>
+        <a href="#" class="btn" style="color: #fff; background-color: #ff3366;">Shop Now</a>
     </section>
 
     <section class="video">
@@ -120,7 +119,12 @@ footer {
 
     <section class="products">
         <h2>Featured Products</h2>
-        <!-- Product cards go here -->
+        <div class="product-card">
+            <!-- Your product card content goes here -->
+        </div>
+        <div class="product-card">
+            <!-- Your product card content goes here -->
+        </div>
     </section>
 
     <section class="about-us">
@@ -144,7 +148,6 @@ footer {
     <script>
         // Inline JavaScript code can go here
         // You can add your JavaScript logic inside the <script> tags
-
     </script>
 </body>
 </html>
